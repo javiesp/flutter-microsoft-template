@@ -108,7 +108,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       width: buttonWidth,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          // TODO: Implement Microsoft login logic
+                          context.go('/microsoft-login');
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(content: Text('Iniciar sesión con Microsoft')),
                           );
