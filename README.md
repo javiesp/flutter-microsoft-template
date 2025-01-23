@@ -1,8 +1,17 @@
-# flutter_application_1
+# APP FLUTTER AUTENTICACIÓN CON MICROSOFT
 
-A new Flutter project.
+Esta aplicación móvil se integra con un servicio de autenticación por medio de token. Utiliza una API que genera solicitudes via Microsoft Graph 
 
-## Getting Started
+## Iniciar aplicación
+
+```bash
+# Instalar dependencias
+$ flutter pub get
+
+# Iniciar aplicación 
+$ flutter run
+```
+
 
 This project is a starting point for a Flutter application.
 

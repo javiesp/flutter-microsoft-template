@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 // Import your screens
 import '../../features/auth/screens/login_screen.dart';
 import '../../features/home/screens/home_screen.dart';
+import '../../features/auth/screens/webview_screen.dart';
 
 class AppRouter {
   // Create a global navigator key
@@ -22,6 +23,10 @@ class AppRouter {
       GoRoute(
         path: '/home',
         builder: (context, state) => const HomeScreen(),
+      ),
+      GoRoute(
+        path: '/microsoft-login',
+        builder: (context, state) => const WebViewContainer(),
       ),
     ],
   );
